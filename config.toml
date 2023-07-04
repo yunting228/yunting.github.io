@@ -1,0 +1,51 @@
+
+
+title = 'My New Hugo Site'
+theme = "PaperMod"
+baseurl = "https://yunting.github.io" 
+#設定主頁 url
+
+languageCode = "zh-tw" 
+#設定 Blog 語言
+
+
+
+buildDrafts = false 
+#是否產生草稿(建議選否)
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "tags"
+
+url = "/tags/"
+
+weight = 10
+
+[[menu.main]]
+
+identifier = "categories"
+
+name = "Categories"
+
+url = "/categories/"
+
+weight = 20
+
+[params.profileMode]
+enabled = true
+title = "Enter the Content"
+subtitle = "Enter the Content"
+imageUrl = "img/name.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
